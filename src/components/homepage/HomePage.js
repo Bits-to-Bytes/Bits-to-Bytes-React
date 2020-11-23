@@ -11,7 +11,13 @@ const HomePage = () => {
                 <p className="info">Being a programming club of the institution, we assure pretty much everything you ask for!
                 We conduct events and workshops, hold lectures and talks, and even host coding competitions and
                 hackathons.</p>
-                
+                <button type="button">
+                    <i className="fas fa-user-circle "></i>
+                    <p>Become a member</p>
+                </button>
+            </div>
+            <div className="image">
+                <img src="./assets/b2b1.png" alt="" />
             </div>
         </div>
     );

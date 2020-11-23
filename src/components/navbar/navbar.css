@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
+@media screen and (max-width: 576px) {
+    
+}
+
 .navbar {
     padding: 0px 40px;
     height: 75px;
@@ -63,4 +67,10 @@
 .navbar-itm:hover:after {
     width: 100%;
     background: var(--accent-color);
+}
+
+@media screen and (max-width: 576px) {
+    .navbar{
+        display: none;
+    }
 }

@@ -1,6 +1,66 @@
-.home-page{
+.home-page {
     padding: 0 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
+
+.home-page .content {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+}
+
+.home-page .title {
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.home-page .subtitle {
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+.home-page .info {
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 20px;
+}
+
+.home-page .image {
+    margin-top: 20px;
+}
+
+.home-page .image img {
+    width: 100%;
+    max-width: 500px;
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    .home-page {
+
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .home-page .content {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 100%;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
