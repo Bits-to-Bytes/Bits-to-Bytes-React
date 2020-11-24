@@ -58,6 +58,7 @@ button {
   display: flex;
   padding: 0 20px;
   align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 10px;
   border-radius: 8px;
@@ -68,6 +69,11 @@ button {
   cursor: pointer;
   box-shadow: var(--shadow);
   transition: all 500ms ease;
+}
+
+
+button i{
+  font-size: 18px;
 }
 
 button:hover {
