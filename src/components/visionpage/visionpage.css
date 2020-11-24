@@ -1,0 +1,64 @@
+.vision-page {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.vision-card {
+    padding: 24px;
+    height: fit-content;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    border-radius: 12px;
+    text-align: start;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+}
+
+.vision-card i {
+    font-size: 45px;
+}
+
+.vision-card .title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vision-card .info {
+    color: #757575;
+    font-size: 17px;
+}
+
+.vision-card .rocket{
+    color:#66B6F6;
+}
+
+.vision-card .bulb{
+    color:#4CAF50;
+}
+.vision-card .user{
+    color:#F44336;
+}
+
+.vision-card:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+@media(max-width:576px){
+    .vision-page{
+        height: 230vh;
+        width: auto;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+    }
+    .vision-card{
+        max-width: 70%;
+        margin: 0 25px;
+    }
+}
