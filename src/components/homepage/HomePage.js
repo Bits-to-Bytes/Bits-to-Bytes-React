@@ -5,7 +5,7 @@ import './homepage.css'
 
 const HomePage = () => {
     return (
-        <div className="home-page">
+        <div className="home-page" id="home">
             <div className="content">
                 <img src="./assets/logo.png" alt="" className="logo" />
                 <h1 className="title">Bits To Bytes</h1>

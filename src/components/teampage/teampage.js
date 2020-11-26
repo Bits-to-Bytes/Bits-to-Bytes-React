@@ -2,8 +2,8 @@ import './teampage.css';
 
 const TeamPage = () => {
     return (
-        <div className="team-page">
-            <h1 className="title">The BitsToBytes Team</h1>
+        <div className="team-page" id="team">
+            <h1 className="title"  >The BitsToBytes Team</h1>
             <p className="info">Passionate students and faculty staff driving the success of the program.</p>
             <p className="info">We are One</p>
             <div className="profile-section">

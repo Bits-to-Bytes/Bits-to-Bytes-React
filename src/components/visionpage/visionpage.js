@@ -4,7 +4,7 @@ import './visionpage.css'
 
 const VisionPage = () => {
     return (
-        <div className="vision-page">
+        <div className="vision-page" id="vision">
             <VisionCard icon="fas fa-rocket rocket" title="What is BitsToBytes?" info="Bits to bytes is a programming club of GEC Bhavnagar, which works for the development of
                 students. Also, the club is an opportunity bundle which includes many fields of knowledge. Explore it in
                 your ways and learn it through us!"/>

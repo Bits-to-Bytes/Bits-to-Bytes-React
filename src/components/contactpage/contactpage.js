@@ -2,7 +2,7 @@ import './contactpage.css'
 
 const ContactPage = () => {
     return (
-        <div className="contact-page">
+        <div className="contact-page" id="contact">
             <div className="address-box">
                 <a href="https://maps.app.goo.gl/6xuVgLAcD1VvRxSW9" className="map-link"><p className="address">
                     Government Engineering College, Bhavnagar,

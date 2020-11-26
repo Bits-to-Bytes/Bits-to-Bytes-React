@@ -2,7 +2,7 @@ import './techpage.css'
 
 const TechPage = () => {
     return (
-        <div className="tech-page">
+        <div className="tech-page" id="tech">
             <h1 className="title">Technologies We're Excited About</h1>
             <p className="info">Oppertunity to learn & access deep technical content.</p>
             <TechCard
