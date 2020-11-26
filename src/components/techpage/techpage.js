@@ -48,10 +48,12 @@ const TechCard = ({ image, link, title, info, isOdd }) => {
                 <div className="content">
                     <h1 className="title">{title}</h1>
                     <p className="info">{info}</p>
-                    <button href={link} >
-                        <p>CodeLabs</p>
-                        <i className="fas fa-arrow-right"></i>
-                    </button>
+                    <a href={link} className="event-button" target="_blank" rel="noreferrer">
+                        <button>
+                            <p>CodeLabs</p>
+                            <i className="fas fa-arrow-right"></i>
+                        </button>
+                    </a>
                 </div>
             </div>
         );

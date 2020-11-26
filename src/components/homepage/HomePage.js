@@ -6,6 +6,7 @@ const HomePage = () => {
     return (
         <div className="home-page">
             <div className="content">
+                <img src="./assets/logo.png" alt="" className="logo"/>
                 <h1 className="title">Bits To Bytes</h1>
                 <h2 className="sub-title">GEC Bhavnagar</h2>
                 <p className="info">Being a programming club of the institution, we assure pretty much everything you ask for!

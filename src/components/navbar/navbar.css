@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
 
-@media screen and (max-width: 576px) {
-    
-}
+@media screen and (max-width: 576px) {}
 
 .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
     padding: 0px 40px;
     height: 75px;
     display: flex;
@@ -13,7 +15,8 @@
     justify-content: space-between;
     background-color: white;
     box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.10);
-    width: auto;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 .navbar-brand {
@@ -22,9 +25,9 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-family: 'Acme',sans-serif;
+    font-family: 'Acme', sans-serif;
     font-size: 28px;
-    font-weight:normal;
+    font-weight: normal;
     color: black;
 }
 
@@ -43,7 +46,7 @@
 
 .navbar-itm {
     font-weight: bold;
-    font-size:medium;
+    font-size: medium;
     color: #000;
     text-decoration: none;
 }
@@ -66,11 +69,11 @@
 
 .navbar-itm:hover:after {
     width: 100%;
-    background: var(--accent-color);
+    background: var(--gradient);
 }
 
 @media screen and (max-width: 576px) {
-    .navbar{
+    .navbar {
         display: none;
     }
 }

@@ -45,7 +45,7 @@
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    background: var(--accent-color);
+    background: var(--gradient);
 }
 
 .profile-card .profile-circle {
@@ -59,7 +59,7 @@
     height: 160px;
     width: 160px;
     border-radius: 50%;
-    background: var(--accent-color);
+    background: var(--gradient);
 }
 
 .profile-card .profile-circle img {

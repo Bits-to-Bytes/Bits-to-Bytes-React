@@ -100,16 +100,16 @@ const ProfileCard = ({ image, name, title, linkedIn, github, instagram, twitter 
             <p className="name">{name}</p>
             <p className="title">{title}</p>
             <div className="social-media">
-                <a href={linkedIn} >
+                <a href={linkedIn} target="_blank" rel="noreferrer">
                     <img src="./assets/icons/linkedin.png" alt="" />
                 </a>
-                <a href={twitter}>
+                <a href={twitter} target="_blank" rel="noreferrer">
                     <img src="./assets/icons/twitter.png" alt="" />
                 </a>
-                <a href={github}>
+                <a href={github} target="_blank" rel="noreferrer">
                     <img src="./assets/icons/github.png" alt="" />
                 </a>
-                <a href={instagram}>
+                <a href={instagram} target="_blank" rel="noreferrer">
                     <img src="./assets/icons/instagram.png" alt="" />
                 </a>
             </div>

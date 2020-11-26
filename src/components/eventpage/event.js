@@ -12,11 +12,16 @@ const Event = () => {
                 <p className="about-event">Throughout this event, you'll learn about Git's core functionality so you can understand how and why
                 it’s used in organizations. We’ll look into some basic features, like Pull Request, branches and
                 merging. We'll demonstrate how we can use git's command line tool to use Github's power very
-                    efficiently.</p>
-                <button>
-                    <p>Register</p>
-                    <i className="fas fa-arrow-right"></i>
-                </button>
+                     efficiently.</p>
+
+
+                <a href="https://youtu.be/Gzo7yE-JcT0" className="event-button" target="_blank" rel="noreferrer">
+                    <button>
+                        <p>Watch</p>
+                        <i className="fas fa-eye"></i>
+                    </button>
+                </a>
+
             </div>
         </div>
     );
