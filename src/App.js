@@ -8,6 +8,7 @@ import EventPage from './components/eventpage/eventpage';
 import VisionPage from './components/visionpage/visionpage';
 import OppertunityPage from './components/oppertunitypage/oppertunitypage';
 import TechPage from './components/techpage/techpage';
+import TeamPage from './components/teampage/teampage';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <VisionPage />
         <OppertunityPage />
         <TechPage />
+        <TeamPage/>
       </div>
     </BrowserRouter>
   );
