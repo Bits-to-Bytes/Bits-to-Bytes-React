@@ -58,7 +58,7 @@ button {
   display: flex;
   padding: 0 20px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-direction: row;
   gap: 10px;
   border-radius: 8px;

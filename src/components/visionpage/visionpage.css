@@ -51,11 +51,11 @@
 
 @media(max-width:576px){
     .vision-page{
-        height: 230vh;
+        height: 180vh;
         width: auto;
         flex-direction: column;
         gap: 30px;
-        justify-content: center;
+        justify-content: space-evenly;
     }
     .vision-card{
         max-width: 70%;

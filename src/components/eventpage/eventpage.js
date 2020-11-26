@@ -5,7 +5,7 @@ import Event from './event';
 
 const EventPage = () => {
     return (
-        <div className="event-page">
+        <div className="event-page" id="event-page">
             <div className="head">
                 <h1 className="title">Events</h1>
                 <p className="info">Come learn, share and connect with us.</p>

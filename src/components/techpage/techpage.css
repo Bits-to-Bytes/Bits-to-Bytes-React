@@ -9,6 +9,7 @@
     margin: 100px 0px;
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -59,6 +60,9 @@
         max-width: 100%;
     }
 
+    .tech-card .content button i{
+        padding-left: 10px;
+    }
     .tech-card .img {
         max-width: 100%;
     }
