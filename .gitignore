@@ -14,8 +14,8 @@
 #firebase filea
 .firebaserc
 firebase.json
-.firebase
-
+/.firebase
+debug.log
 # misc
 .DS_Store
 .env.local
