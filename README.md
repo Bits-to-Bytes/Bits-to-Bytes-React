@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Bits To Bytes
+-----------------------
+This is the repository for website of programing club of Government Engineering College, Bhavnagar.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
