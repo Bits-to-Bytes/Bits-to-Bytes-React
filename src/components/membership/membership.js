@@ -10,7 +10,7 @@ class MembershipPage extends Component {
                     <h1 className="title">Program name</h1>
                     <h3 className="info">Association membership</h3>
                     <div className="img">
-                        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_CbwvP6/data.json" mode="bounce" background="transparent" speed="1" style={{ width: '100%', height: '100%', }} loop autoplay></lottie-player>
+                        <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_m6cuL6.json" mode="bounce" background="transparent" speed="1" style={{ width: '100%', height: '100%', }} loop autoplay></lottie-player>
                     </div>
                 </div>
 
@@ -26,11 +26,11 @@ class MembershipPage extends Component {
                         </ol>
 
                     </div>
-                    <div class='pm-button'>
+                    {/* <div class='pm-button'>
                         <a href='https://www.payumoney.com/paybypayumoney/#/6D0513F0D9ED6209F01B15C290D390FB'>
                             Join Us
                     </a>
-                    </div>
+                    </div> */}
 
 
                 </div>
