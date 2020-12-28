@@ -11,12 +11,12 @@
     width: 50%;
 }
 
-.event-button{
+.event-button {
     display: flex;
     gap: 10px;
     align-items: center;
     text-decoration: none;
-    color:white;
+    color: white;
 }
 
 .event {
@@ -28,6 +28,7 @@
 }
 
 .event-img img {
+    animation: logo-spin infinite 20s linear;
     justify-self: right;
     width: 100%;
     max-width: 300px;
@@ -49,6 +50,11 @@
 
 .event button {
     max-width: 150px;
+
+}
+
+.event a {
+    text-decoration: none;
 }
 
 
@@ -73,11 +79,22 @@
         width: 90%;
     }
 
-    .event .info button i{
+    .event .info button i {
         padding-left: 10px;
     }
 
     .event .info .about-event {
         max-width: 100%;
+    }
+}
+
+
+@keyframes logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
     }
 }
