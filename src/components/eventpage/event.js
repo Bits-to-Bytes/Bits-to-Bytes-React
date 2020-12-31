@@ -1,5 +1,4 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
 import "./eventpage.css";
 
 const Event = () => {
@@ -16,21 +15,8 @@ const Event = () => {
           community of individual developers and companies. React can be used as
           a base in the development of single-page or mobile applications
         </p>
-
-        {/* <a
-          href="https://miten3377.typeform.com/to/IIxoLbTv"
-          className="event-button"
-          target="_blank"
-          rel="noreferrer"
-        > */}
-        <NavLink to="/registration">
-          <button>
-            <p>Register</p>
-            <i className="fas fa-arrow-right"></i>
-          </button>
-        </NavLink>
-        {/* </a> */}
       </div>
+     
     </div>
   );
 };

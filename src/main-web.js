@@ -8,6 +8,7 @@ import TechPage from "./components/techpage/techpage";
 import TeamPage from "./components/teampage/teampage";
 import ContactPage from "./components/contactpage/contactpage";
 import NavBar from "./components/navbar/Navbar";
+import RegistrationForm from "./pages/registration/Registration";
 
 export default class MainWeb extends Component {
   render() {
@@ -24,6 +25,7 @@ export default class MainWeb extends Component {
         />
         <HomePage />
         <EventPage />
+        <RegistrationForm />
         <VisionPage />
         <OppertunityPage />
         <TechPage />

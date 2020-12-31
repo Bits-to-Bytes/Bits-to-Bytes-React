@@ -4,10 +4,8 @@ import { Component } from "react";
 import "./navbar.css";
 
 class NavBar extends Component {
-  // const navList =
   render() {
     const { navBarItems } = this.props;
-    console.log(navBarItems);
     return (
       <nav className="navbar">
         <a href="/" className="navbar-brand">
