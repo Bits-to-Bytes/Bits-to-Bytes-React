@@ -25,7 +25,6 @@ export default class MainWeb extends Component {
         />
         <HomePage />
         <EventPage />
-        <RegistrationForm />
         <VisionPage />
         <OppertunityPage />
         <TechPage />

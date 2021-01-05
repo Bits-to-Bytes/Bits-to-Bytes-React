@@ -11,10 +11,9 @@ const EventPage = () => {
         <h1 className="title">Events</h1>
         <p className="info">Come learn, share and connect with us.</p>
       </div>
-      <div className="event-speaker-info">
-        <Event className="current-event" />
-        <Speaker />
-      </div>
+
+      <Event className="current-event" />
+      {/* <Speaker /> */}
     </div>
   );
 };

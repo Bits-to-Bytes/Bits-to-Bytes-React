@@ -13,8 +13,7 @@ function App() {
       <div className="App">
        
         <Route exact path="/" component={MainWeb} />
-        <Route path="/membership" component={MembershipPage} />
-        <Route path="/registration" component={RegistrationPage} />
+        {/* <Route path="/membership" component={MembershipPage} /> */}
       </div>
     </BrowserRouter>
   );
