@@ -9,6 +9,7 @@ import TeamPage from "./components/teampage/teampage";
 import ContactPage from "./components/contactpage/contactpage";
 import NavBar from "./components/navbar/Navbar";
 import RegistrationForm from "./pages/registration/Registration";
+import BlogsPage from "./components/blogspage/blogspage";
 
 export default class MainWeb extends Component {
   render() {
@@ -18,14 +19,16 @@ export default class MainWeb extends Component {
           navBarItems={[
             { title: "Home", link: "#home" ,key:1},
             { title: "Events", link: "#events" ,key:2},
-            { title: "Vision", link: "#vision" ,key:3},
-            { title: "Team", link: "#team" ,key:4},
-            { title: "Join us", link: "#contact",key:5 },
+            { title: "Blogs", link: "#blogs",key:3 },
+            { title: "Vision", link: "#vision" ,key:4},
+            { title: "Team", link: "#team" ,key:5},
+            { title: "Join us", link: "#contact",key:6 },
           ]}
         />
         <HomePage />
         <EventPage />
         <RegistrationForm />
+        <BlogsPage />
         <VisionPage />
         <OppertunityPage />
         <TechPage />
