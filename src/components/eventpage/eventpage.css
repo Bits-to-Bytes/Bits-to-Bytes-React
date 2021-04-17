@@ -1,16 +1,18 @@
 .event-page {
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
+}
+
+.event-page .head .title {
+    border-bottom:2px solid rgba(65, 54, 241, .7);
 }
 
 .event-speaker-info {
     display: flex;
 
 }
-
-
 
 .event-button {
     display: flex;
@@ -44,7 +46,6 @@
 }
 
 .event {
-
     flex-direction: column;
     display: flex;
     flex-direction: column;
@@ -56,12 +57,9 @@
 
 }
 
-
 .event-img img {
     animation: logo-spin infinite 20s linear;
-
     width: 100%;
-
 }
 
 .info {
@@ -70,14 +68,18 @@
     align-items: center;
     gap: 0px;
     text-align: center;
-    max-width: 500px;
+    max-width: 2000px;
     width: auto;
 
 }
 
+.info .title {
+    margin-top: 10px;
+}
+
 .info .about-event {
     color: gray;
-    max-width: 75%;
+    max-width: 100%;
 }
 
 .event button {

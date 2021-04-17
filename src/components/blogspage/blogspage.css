@@ -1,31 +1,46 @@
+.blogsPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.blogsPage .cards{
+    display: flex;
+    flex-direction: row;
+}
+
 .blogs-page {
-    margin-top: 20px;
-    padding: 0 20px;
+    margin-top: 0px;
+    padding: 0 120px;
     height: 80vh;
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.title {
+.blogsPage-title {
     text-align: center;
     font-weight: bold;
+    max-width: 10%;
     font-size: 30px;
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border-bottom:2px solid rgba(65, 54, 241, .7);
 }
 
 .blog-card {
-    padding: 15px;
-    height: fit-content;
-    max-width: 290px;
+    padding: 0px 20px;
+    margin: 0 70px;
+    height: 450px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
     border-radius: 12px;
-    text-align: start;
+    text-align: center;
     box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
 }
 
@@ -39,6 +54,7 @@
 
 .blog-card .blog-title {
     font-size: 20px;
+    padding: 0 10px;
     font-weight: bold;
 }
 
@@ -52,13 +68,11 @@
 }
 
 .blog-card .info {
+    padding: 0 10px;
     color: #757575;
     font-size: 17px;
-    text-align: start;
+    text-align: center;
 }
-
-
-
 
 .blog-card .blog-btn {
     -moz-border-radius: 12px;
@@ -80,6 +94,10 @@
     margin-bottom: 20px;
     -moz-box-shadow: none;
     -webkit-box-shadow: none;
+}
+
+.event-button{
+    margin-bottom: 10px;
 }
 
 @media(max-width:576px) {
