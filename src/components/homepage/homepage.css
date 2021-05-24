@@ -3,16 +3,11 @@
     padding: 0 40px;
     display: flex;
     align-items: center;
-    flex-direction: row;
     justify-content: space-evenly;
 }
 
-.home-page .logo {
-    display: none;
-}
-
 .home-page .content {
-    max-width: 50%;
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,15 +15,15 @@
     text-align: start;
 }
 
-
-
 .home-page .home-title {
-    margin-bottom: 15px;
+    padding:5px;
+    margin-bottom: 10px;
     font-size: 40px;
+    border-bottom: 3px solid rgba(65, 54, 241, .7);
 }
 
 .home-page .subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 30px;
 }
 
@@ -38,14 +33,11 @@
     font-size: 20px;
 }
 
-
 .home-page .image {
     margin-top: 20px;
     width: 100%;
     max-width: 500px;
 }
-
-
 
 .home-page a {
     text-decoration: none;

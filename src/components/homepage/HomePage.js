@@ -11,7 +11,6 @@ const HomePage = () => {
   return (
     <div className="home-page" id="home">
       <div className="content">
-        <img src="./assets/logo.png" alt="" className="logo" />
         <h1 className="home-title">Bits To Bytes</h1>
         <h2 className="sub-title">GEC Bhavnagar</h2>
         <p className="home-info">
