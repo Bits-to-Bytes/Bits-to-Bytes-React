@@ -2,6 +2,7 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 
 const Wrapper = styled(motion.nav).attrs({ id: "navbar" })`
+  z-index: 3;
   position: fixed;
   top: 0;
   left: 0;
@@ -33,6 +34,7 @@ const NavItem = styled(motion.a)`
   overflow: hidden;
 
   &:hover {
+    color: black;
     &::after {
       transform: translate3d(0%, 0%, 0);
     }
@@ -46,7 +48,7 @@ const NavItem = styled(motion.a)`
     position: absolute;
     z-index: 2;
     content: "";
-    height: 2px;
+    height: 3px;
     width: 100%;
     background: ${({ theme }) => theme.gradient};
   }

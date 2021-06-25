@@ -34,7 +34,7 @@ const theme = {
   headingSM: "2rem",
   textLG: "1.5rem",
   textMD: "1.3rem",
-  textSM: "1rem",
+  textSM: "14px",
   boxShadow: "5px 5px 25px rgba(0,0,0,0.2)",
   gradient:
     "linear-gradient(90deg, rgba(135, 67, 255, 1) 0%, rgba(65, 54, 241, 1) 100%)",

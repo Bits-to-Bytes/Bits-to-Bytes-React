@@ -2,7 +2,7 @@ import styled from "styled-components"
 import { motion } from "framer-motion"
 
 const Wrapper = styled(motion.div).attrs({ id: "home" })`
-  min-height: 100%;
+  min-height: 100vh;
   min-width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -16,7 +16,7 @@ const Info = styled(motion.div)`
   flex-direction: column;
   justify-content: center;
   gap: 1rem;
-  height: 400px;
+
   /* height: 100%; */
   width: 100%;
   p {

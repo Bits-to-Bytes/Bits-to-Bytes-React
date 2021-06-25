@@ -3,8 +3,9 @@ import { motion } from "framer-motion"
 import styled from "styled-components"
 
 const ButtonWrapper = styled(motion.button)`
+  text-decoration: none;
   cursor: pointer;
-  min-width: 200px;
+  min-width: 150px;
   width: fit-content;
   min-height: 40px;
   color: white;
@@ -19,12 +20,16 @@ const ButtonWrapper = styled(motion.button)`
   transition: all 0.3s linear;
   &:hover {
     transform: scale(0.9);
-    box-shadow: 3px 3px 25px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 25px rgba(0, 0, 0, 0.3);
   }
 `
 
-const Button = ({ onClick, children }) => {
-  return <ButtonWrapper onClick={onClick}>{children}</ButtonWrapper>
+const Button = ({ onClick, children, ...props }) => {
+  return (
+    <ButtonWrapper {...props} onClick={onClick}>
+      {children}
+    </ButtonWrapper>
+  )
 }
 
 export default Button

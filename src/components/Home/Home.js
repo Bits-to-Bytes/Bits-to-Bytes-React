@@ -2,6 +2,7 @@ import React from "react"
 import Heading from "../Heading/Heading"
 import { Info, Wrapper } from "./Home.style"
 import Button from "../Button/Button"
+import LottiPlayer from "../LottiePlayer/LottiPlayer"
 
 const Home = () => {
   return (
@@ -18,7 +19,9 @@ const Home = () => {
           <span>Become a member</span>
         </Button>
       </Info>
-      <p>2</p>
+      <div>
+        <LottiPlayer animation="https://assets1.lottiefiles.com/private_files/lf30_YhW5Ji.json" />
+      </div>
     </Wrapper>
   )
 }

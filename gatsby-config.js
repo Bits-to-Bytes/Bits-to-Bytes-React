@@ -9,7 +9,15 @@ module.exports = {
   plugins: [
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-image`,
+
+    `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: "src/images/favicon.ico",
+      },
+    },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -25,4 +33,10 @@ module.exports = {
       },
     },
   ],
+  siteMetadata: {
+    title: "BitsToBytes | GEC Bhavanagr",
+    description: "Official Programing club of GEC Bhavnagar",
+    url: "https://bitstobytes.in/",
+    icon: "./src/images/favicon.ico",
+  },
 }
