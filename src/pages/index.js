@@ -1,8 +1,10 @@
 import React from "react"
 import styled from "styled-components"
+import Blogs from "../components/Blogs/Blogs"
 import Events from "../components/Events/Events"
 import Home from "../components/Home/Home"
 import Navbar from "../components/Navbar/Navbar"
+import Team from "../components/Team/team"
 import Tech from "../components/Tech/Tech"
 import Vision from "../components/Vision/Vision"
 import Provider from "../provider/Provider"
@@ -19,7 +21,9 @@ export default function App() {
         <Home />
         <Events />
         <Vision />
+        <Blogs />
         <Tech />
+        <Team />
       </HomePage>
     </Provider>
   )

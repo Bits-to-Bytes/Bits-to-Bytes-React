@@ -25,6 +25,7 @@ const Events = () => {
             </p>
             <Button>
               <span>Join Slack</span>
+              <i className="fas fa-arrow-right"></i>
             </Button>
           </Info>
         </Event>

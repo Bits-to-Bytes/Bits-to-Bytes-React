@@ -52,6 +52,7 @@ const TechCard = ({ title, info, link, animation }) => {
         <p>{info}</p>
         <Button as="a" href={link} target="_blank" rel="noreffrer">
           <span>CodeLabs</span>
+          <i className="fas fa-arrow-right"></i>
         </Button>
       </div>
     </TechCardWrapper>
