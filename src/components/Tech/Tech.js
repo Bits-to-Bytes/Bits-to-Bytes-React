@@ -50,7 +50,7 @@ const TechCard = ({ title, info, link, animation }) => {
       <div className="info">
         <Heading as="h2" heading={title} />
         <p>{info}</p>
-        <Button as="a" href={link} target="_blank" rel="noreffrer">
+        <Button as="a" href={link} target="_blank" rel="noreferrer">
           <span>CodeLabs</span>
           <i className="fas fa-arrow-right"></i>
         </Button>

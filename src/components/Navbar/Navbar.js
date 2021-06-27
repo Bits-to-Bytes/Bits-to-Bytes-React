@@ -47,12 +47,24 @@ const Navbar = () => {
       />
 
       <NavItems>
-        <NavItem href="#home">Home</NavItem>
-        <NavItem href="#events">Events</NavItem>
-        <NavItem href="#vision">Vision</NavItem>
-        <NavItem href="#blogs">Blogs</NavItem>
-        <NavItem href="#team">Team</NavItem>
-        <NavItem href="#contact">Contact</NavItem>
+        <li>
+          <NavItem href="#home">Home</NavItem>
+        </li>
+        <li>
+          <NavItem href="#events">Events</NavItem>
+        </li>
+        <li>
+          <NavItem href="#vision">Vision</NavItem>
+        </li>
+        <li>
+          <NavItem href="#blogs">Blogs</NavItem>
+        </li>
+        <li>
+          <NavItem href="#team">Team</NavItem>
+        </li>
+        <li>
+          <NavItem href="#contact">Contact</NavItem>
+        </li>
       </NavItems>
     </Wrapper>
   )

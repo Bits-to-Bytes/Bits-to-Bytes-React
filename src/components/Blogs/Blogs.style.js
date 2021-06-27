@@ -1,5 +1,5 @@
 import styled from "styled-components"
-
+import { device } from "../../style/mediaQueries"
 const Wrapper = styled.div.attrs({ id: "blogs" })`
   min-height: 100vh;
   height: fit-content;
@@ -9,6 +9,10 @@ const Wrapper = styled.div.attrs({ id: "blogs" })`
     color: ${({ theme }) => theme.textColor};
   }
   padding: 0 40px;
+  @media ${device.mobileL} {
+    padding: 0 20px;
+    margin-top: 3rem;
+  }
 `
 
 const BlogWrapper = styled.div`
@@ -45,8 +49,14 @@ const Childrens = styled.div`
   height: 500px;
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   gap: 1rem;
   justify-content: space-evenly;
+  @media ${device.mobileL} {
+    margin: 0;
+    margin-top: 3rem;
+    gap: 3rem;
+  }
 `
 
 export { Wrapper, Childrens, BlogWrapper }

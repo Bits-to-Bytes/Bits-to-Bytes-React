@@ -22,7 +22,7 @@ const Team = () => {
           github="http://github.com/Neel2904"
           twitter="http://twitter.com/Neel_2904"
         >
-          <StaticImage src="../../images/team/neel.png" />
+          <StaticImage src="../../images/team/neel.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Ishita Keshawani"
@@ -32,7 +32,7 @@ const Team = () => {
           github="http://github.com/ishitakeshawani"
           twitter="http://twitter.com/ishitakeshawani"
         >
-          <StaticImage src="../../images/team/ishita.png" />
+          <StaticImage src="../../images/team/ishita.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Miten Gajjar"
@@ -42,7 +42,7 @@ const Team = () => {
           github="http://github.com/GajjarMiten"
           twitter="http://twitter.com/GajjarMiten"
         >
-          <StaticImage src="../../images/team/miten.png" />
+          <StaticImage src="../../images/team/miten.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Yashvi Patel"
@@ -52,7 +52,7 @@ const Team = () => {
           github="http://github.com/patelyashvi"
           twitter="http://twitter.com/YashviP97470687"
         >
-          <StaticImage src="../../images/team/yashvi.png" />
+          <StaticImage src="../../images/team/yashvi.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Axit Patel"
@@ -62,7 +62,27 @@ const Team = () => {
           github="http://github.com/patelyashvi"
           twitter="http://twitter.com/YashviP97470687"
         >
-          <StaticImage src="../../images/team/axit.png" />
+          <StaticImage src="../../images/team/axit.png" alt="profile-img" />
+        </ProfileCard>
+        <ProfileCard
+          name="Charchil Kajaliya"
+          title="Associate Member"
+          linkedIn="http://www.linkedin.com/in/patelyashvi"
+          instagram="http://www.instagram.com/yashviwithawhy"
+          github="http://github.com/patelyashvi"
+          twitter="http://twitter.com/YashviP97470687"
+        >
+          <StaticImage src="../../images/team/charchil.png" alt="profile-img" />
+        </ProfileCard>
+        <ProfileCard
+          name="Brijrajsinh Parmar"
+          title="Associate Member"
+          linkedIn="http://www.linkedin.com/in/patelyashvi"
+          instagram="http://www.instagram.com/yashviwithawhy"
+          github="http://github.com/patelyashvi"
+          twitter="http://twitter.com/YashviP97470687"
+        >
+          <StaticImage src="../../images/team/charchil.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Nistha Vaghela"
@@ -72,8 +92,46 @@ const Team = () => {
           github="http://github.com/patelyashvi"
           twitter="http://twitter.com/YashviP97470687"
         >
-          <StaticImage src="../../images/team/nishtha.png" />
+          <StaticImage src="../../images/team/nishtha.png" alt="profile-img" />
         </ProfileCard>
+        <ProfileCard
+          name="Shailee Shah"
+          title="Associate Member"
+          linkedIn="http://www.linkedin.com/in/shailee-shah-58a349210"
+          instagram="http://www.instagram.com/shailee2036"
+          github="http://github.com/patelyashvi"
+          twitter="http://twitter.com/YashviP97470687"
+        >
+          <StaticImage src="../../images/team/shailee.png" alt="profile-img" />
+        </ProfileCard>
+      </Childrens>
+      <Heading
+        as="h2"
+        heading="Board of Authority"
+        style={{ marginTop: "6rem" }}
+      />
+      <Childrens>
+        <FacultyCard
+          name="Prof.(Dr.) G.P Vadodaria"
+          title="Principal, GEC, Bhavnagar"
+          position=""
+        >
+          <StaticImage src="../../images/faculty/pc.png" alt="profile-img" />
+        </FacultyCard>
+        <FacultyCard
+          name="Prof. Karshan Kandoriya"
+          title="Faculty Advisor"
+          position="HoD, Department of Computer Engineering, GEC, Bhavnagar"
+        >
+          <StaticImage src="../../images/faculty/fc.png" alt="profile-img" />
+        </FacultyCard>
+        <FacultyCard
+          name="Prof. Chinmay Vyas"
+          title="Faculty Coordinator"
+          position="Assistant Professor, Department of Computer Engineering, GEC, Bhavnagar"
+        >
+          <StaticImage src="../../images/faculty/fa.png" alt="profile-img" />
+        </FacultyCard>
       </Childrens>
     </Wrapper>
   )
@@ -92,7 +150,7 @@ const ProfileCard = ({
 }) => {
   return (
     <ProfileWrapper>
-      <div className="background">sa</div>
+      <div className="background"></div>
       <div className="image">{children}</div>
       <div className="content">
         <div>
@@ -101,17 +159,38 @@ const ProfileCard = ({
         </div>
         <div className="links">
           <a href={linkedIn} target="_blank" rel="noreferrer">
-            <StaticImage src="../../images/icons/linkedin.png" />
+            <StaticImage src="../../images/icons/linkedin.png" alt="link-img" />
           </a>
           <a href={twitter} target="_blank" rel="noreferrer">
-            <StaticImage src="../../images/icons/twitter.png" />
+            <StaticImage src="../../images/icons/twitter.png" alt="link-img" />
           </a>
           <a href={github} target="_blank" rel="noreferrer">
-            <StaticImage src="../../images/icons/github.png" />
+            <StaticImage src="../../images/icons/github.png" alt="link-img" />
           </a>
           <a href={instagram} target="_blank" rel="noreferrer">
-            <StaticImage src="../../images/icons/instagram.png" />
+            <StaticImage
+              src="../../images/icons/instagram.png"
+              alt="link-img"
+            />
           </a>
+        </div>
+      </div>
+    </ProfileWrapper>
+  )
+}
+
+const FacultyCard = ({ name, title, position, children }) => {
+  return (
+    <ProfileWrapper>
+      <div className="background"></div>
+      <div className="image">{children}</div>
+      <div className="content faculty">
+        <div>
+          <p className="name">{name}</p>
+          <p className="title" style={{ fontSize: "14px" }}>
+            {title}
+          </p>
+          <p style={{ fontSize: "14px" }}>{position}</p>
         </div>
       </div>
     </ProfileWrapper>

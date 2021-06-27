@@ -50,8 +50,8 @@ const BlogCard = ({ title, image, info, link }) => {
       <div className="content">
         <Heading as="h4" heading={title} />
         <p>{info}</p>
-        <Button as="a" href={link} rel="noreffrer">
-          <span>Read More</span>
+        <Button as="a" href={link} rel="noreferrer">
+          <span>Full Blog</span>
           <i className="fas fa-arrow-right"></i>
         </Button>
       </div>

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion"
 import styled from "styled-components"
+import { device } from "../../style/mediaQueries"
 
 const Wrapper = styled.div.attrs({ id: "events" })`
   min-height: 100vh;
@@ -9,14 +10,22 @@ const Wrapper = styled.div.attrs({ id: "events" })`
     color: ${({ theme }) => theme.textColor};
   }
   padding: 0 40px;
+  @media ${device.mobileL} {
+    padding: 0 20px;
+  }
 `
 
 const Event = styled(motion.section)`
   width: 100%;
-  min-height: 300px;
   display: grid;
+  min-height: 300px;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
+  @media ${device.mobileL} {
+    min-height: fit-content;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
 `
 
 const Info = styled.div`
@@ -27,6 +36,10 @@ const Info = styled.div`
   text-align: left;
   p {
     font-size: ${({ theme }) => theme.textSM};
+  }
+  @media ${device.mobileL} {
+    align-items: center;
+    text-align: center;
   }
 `
 

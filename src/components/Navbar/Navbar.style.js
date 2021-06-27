@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import { motion } from "framer-motion"
+import { device } from "../../style/mediaQueries"
 
 const Wrapper = styled(motion.nav).attrs({ id: "navbar" })`
   z-index: 3;
@@ -16,14 +17,21 @@ const Wrapper = styled(motion.nav).attrs({ id: "navbar" })`
   backdrop-filter: blur(10px);
   transition: all ease-out 0.3s;
   border-bottom: solid 2px #4737f2;
+
+  @media ${device.mobileL} {
+    display: none;
+  } ;
 `
 
 const NavItems = styled(motion.ul)`
   height: 100%;
   display: flex;
   gap: 2rem;
-
   align-items: center;
+  li {
+    list-style-type: none;
+    overflow: hidden;
+  }
 `
 
 const NavItem = styled(motion.a)`

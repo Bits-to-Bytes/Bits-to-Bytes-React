@@ -19,6 +19,13 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://bitstobytes.in/",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `iamges`,

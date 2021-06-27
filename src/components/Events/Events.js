@@ -23,7 +23,12 @@ const Events = () => {
               you the science of evaluating the efficiency of an algorithm. This
               enables you to choose the best of various choices.
             </p>
-            <Button>
+            <Button
+              as="a"
+              href="https://join.slack.com/t/bits-to-bytesstudents/shared_invite/zt-mhkyjgpx-iuC4iuXsQdJ1Ekxz20yoDA"
+              target="_blank"
+              rel="noreferrer"
+            >
               <span>Join Slack</span>
               <i className="fas fa-arrow-right"></i>
             </Button>

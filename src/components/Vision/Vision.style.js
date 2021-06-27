@@ -1,11 +1,14 @@
 import styled from "styled-components"
+import { device } from "../../style/mediaQueries"
 
 const Wrapper = styled.div.attrs({ id: "vision" })`
   min-height: 100vh;
   min-width: 100%;
   padding: 0 40px;
   display: flex;
-  /* align-items: center; */
+  @media ${device.mobileL} {
+    padding: 0 20px;
+  }
 `
 
 const VisionWrapper = styled.div`
@@ -13,8 +16,11 @@ const VisionWrapper = styled.div`
   display: flex;
   gap: 1rem;
   flex-wrap: wrap;
-
   justify-content: space-evenly;
+  @media ${device.mobileL} {
+    gap: 3rem;
+    margin-top: 3rem;
+  }
 `
 
 const VisionCard = styled.div`

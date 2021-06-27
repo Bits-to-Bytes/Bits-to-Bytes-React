@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import { device } from "../../style/mediaQueries"
 
 const Wrapper = styled.div.attrs({ id: "events" })`
   min-height: 100vh;
@@ -8,6 +9,10 @@ const Wrapper = styled.div.attrs({ id: "events" })`
     color: ${({ theme }) => theme.textColor};
   }
   padding: 0 40px;
+  @media ${device.mobileL} {
+    margin-top: 20rem;
+    padding: 0 20px;
+  }
 `
 
 const TechCardWrapper = styled.div`
@@ -37,6 +42,30 @@ const TechCardWrapper = styled.div`
       grid-column: 1/1;
     }
   }
+  @media ${device.mobileL} {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .info {
+      align-items: center;
+      text-align: center;
+    }
+
+    &:nth-child(even) {
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr 1fr;
+      .animation {
+        grid-row: 1/1;
+        grid-column: 1/1;
+      }
+      .info {
+        align-items: center;
+        grid-row: 2/2;
+        text-align: center;
+        grid-column: 1/1;
+      }
+    }
+  }
 `
 
 const Childrens = styled.div`
@@ -45,6 +74,9 @@ const Childrens = styled.div`
   flex-direction: column;
   justify-content: center;
   gap: 3rem;
+  @media ${device.mobileL} {
+    margin-top: 3rem;
+  }
 `
 
 export { Wrapper, Childrens, TechCardWrapper }
