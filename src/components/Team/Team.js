@@ -8,10 +8,7 @@ const Team = () => {
   return (
     <Wrapper>
       <Heading as="h2" heading="The BitsToBytes Team" />
-      <p>
-        Passionate students and faculty staff driving the success of the
-        program.
-      </p>
+
       <p> We are One</p>
       <Childrens>
         <ProfileCard
@@ -57,40 +54,40 @@ const Team = () => {
         <ProfileCard
           name="Axit Patel"
           title="Executive Member"
-          linkedIn="http://www.linkedin.com/in/patelyashvi"
-          instagram="http://www.instagram.com/yashviwithawhy"
-          github="http://github.com/patelyashvi"
-          twitter="http://twitter.com/YashviP97470687"
+          linkedIn="https://www.linkedin.com/in/axit-patel-ab3845212"
+          instagram="http://www.instagram.com/axit03"
+          github="https://github.com/Axit03"
+          twitter="http://twitter.com/AxitPat64410372"
         >
           <StaticImage src="../../images/team/axit.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Charchil Kajaliya"
           title="Associate Member"
-          linkedIn="http://www.linkedin.com/in/patelyashvi"
-          instagram="http://www.instagram.com/yashviwithawhy"
-          github="http://github.com/patelyashvi"
-          twitter="http://twitter.com/YashviP97470687"
+          linkedIn="http://www.linkedin.com/in/charchil-kajaliya"
+          instagram="http://www.instagram.com/charchil08"
+          github="http://github.com/charchil08"
+          twitter="http://twitter.com/Charchil_08"
         >
           <StaticImage src="../../images/team/charchil.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Brijrajsinh Parmar"
           title="Associate Member"
-          linkedIn="http://www.linkedin.com/in/patelyashvi"
-          instagram="http://www.instagram.com/yashviwithawhy"
-          github="http://github.com/patelyashvi"
-          twitter="http://twitter.com/YashviP97470687"
+          linkedIn="http://www.linkedin.com/in/brijrajsinh-parmar"
+          instagram="http://www.instagram.com/brijraj"
+          github="http://github.com/brijrajparmar27"
+          twitter="http://twitter.com/brijrajparmar27"
         >
-          <StaticImage src="../../images/team/charchil.png" alt="profile-img" />
+          <StaticImage src="../../images/team/brijraj.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
           name="Nistha Vaghela"
           title="Associate Member"
-          linkedIn="http://www.linkedin.com/in/patelyashvi"
-          instagram="http://www.instagram.com/yashviwithawhy"
-          github="http://github.com/patelyashvi"
-          twitter="http://twitter.com/YashviP97470687"
+          linkedIn="https://www.linkedin.com/in/nishtha-vaghela-9792931ba"
+          instagram="http://www.instagram.com/nishtha_vaghela"
+          github="http://github.com/Nishtha511i"
+          twitter="http://twitter.com/NishthaVaghela"
         >
           <StaticImage src="../../images/team/nishtha.png" alt="profile-img" />
         </ProfileCard>
@@ -99,8 +96,8 @@ const Team = () => {
           title="Associate Member"
           linkedIn="http://www.linkedin.com/in/shailee-shah-58a349210"
           instagram="http://www.instagram.com/shailee2036"
-          github="http://github.com/patelyashvi"
-          twitter="http://twitter.com/YashviP97470687"
+          // github="http://github.com/patelyashvi"
+          twitter="http://twitter.com/Shailee94953915"
         >
           <StaticImage src="../../images/team/shailee.png" alt="profile-img" />
         </ProfileCard>
