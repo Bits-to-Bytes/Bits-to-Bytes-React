@@ -1,16 +1,16 @@
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://www.bitstobytes.in">
+    <img alt="b2b" src="./src/images/logo.png"  />
   </a>
 </p>
 <h1 align="center">
-  Gatsby's hello-world starter
+  BitsToBytes website
 </h1>
 
-Kick off your project with this hello-world boilerplate. This starter ships with the main Gatsby configuration files you might need to get up and running blazing fast with the blazing fast app generator for React.
+Bits to bytes is a programming club of [GEC Bhavnagar](http://www.gecbh.cteguj.in/), which works for the development of students. Also, the club is an opportunity bundle which includes many fields of knowledge. Explore it in your ways and learn it through us!
 
-_Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
+- This website is created using [Gatsby](https://www.gatsbyjs.com/) and [React](https://reactjs.org/).
 
 ## 🚀 Quick start
 
