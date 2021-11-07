@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://bitstobytes.in/sitemap/sitemap-index.xml
+Host: https://bitstobytes.in

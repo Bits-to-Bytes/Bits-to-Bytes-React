@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-4166c0501f104ae3504c.js","mappings":"wIAMA,UAJkB,WAChB,OAAO","sources":["webpack://bits-to-bites/./src/pages/404.js"],"sourcesContent":["import React from \"react\"\r\n\r\nconst ErrorPage = () => {\r\n  return <div>hello</div>\r\n}\r\n\r\nexport default ErrorPage\r\n"],"names":[],"sourceRoot":""}
