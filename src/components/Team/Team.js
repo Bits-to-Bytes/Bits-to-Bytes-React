@@ -42,16 +42,6 @@ const Team = () => {
           <StaticImage src="../../images/team/miten.png" alt="profile-img" />
         </ProfileCard>
         <ProfileCard
-          name="Yashvi Patel"
-          title="Executive Member"
-          linkedIn="http://www.linkedin.com/in/patelyashvi"
-          instagram="http://www.instagram.com/yashviwithawhy"
-          github="http://github.com/patelyashvi"
-          twitter="http://twitter.com/YashviP97470687"
-        >
-          <StaticImage src="../../images/team/yashvi.png" alt="profile-img" />
-        </ProfileCard>
-        <ProfileCard
           name="Axit Patel"
           title="Executive Member"
           linkedIn="https://www.linkedin.com/in/axit-patel-ab3845212"
